@@ -9,9 +9,9 @@
     <h1>Teacher Feedback Form</h1>
     <form>
         <label for="teacherName">Teacher's Name:</label><br>
-        <input type="text" id="teacherName" name="teacherName" required><br>
+        <input type="text" id="teacherName" name="teacherName" required><br><br>
         <label for="subject">Subject:</label><br>
-        <input type="text" id="subject" name="subject" required><br>
+        <input type="text" id="subject" name="subject" required><br><br>
         
         
            
