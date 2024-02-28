@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+</head>
+<body>
+    <h1> Admission Form</h1>
+        <label for="program"> Name of Program:</label><br>
+        <select id="program" name="program">
+            <option value="--Select--">--Select--</option>
+            <option value="Computer">Computer</option>
+            <option value="Electrical">Electrical</option>
+            <option value="Civil">Civil</option>
+            <option value="Mechanical">Mechanical</option>
+        </select><br><br>
+        
+        <label for="fullname">Full Name of Student:</label><br>
+        <input type="text" id="fullname" name="fullname"><br><br>
+
+        <label for="parentname">Parent / Guardian's Name:</label><br>
+        <input type="text" id="parentname" name="parentname" ><br><br>
+
+        <label for="dob">Date of birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="occupation">Parent / Guardian's Occupation:</label><br>
+        <input type="text" id="occupation" name="occupation" ><br><br>
+
+        <label for="radio">Gender:</label>
+        <input type="radio" id="radio1" name="radio"> Male
+        <input type="radio" id="radio2" name="radio"> Female
+        <input type="radio" id="radio3" name="radio"> Other<br><br>
+
+
+        <label for="Cast">Cast:</label><br>
+        <select id="Cast" name="Cast">
+            <option value="--Select--">--Select--</option>
+            <option value="General">General</option>
+            <option value="ST">ST</option>
+            <option value="OBC">OBC</option>
+            <option value="SC">SC</option>
+        </select><br><br>
+
+
+        <label for="Studentphone">Student's Phone:</label><br>
+        <input type="tel" id="Studentphone" name="Studentphone"><br><br>
+
+        <label for="parentphone">Parent / Guardian's Phone:</label><br>
+        <input type="tel" id="parentphone" name="parentphone"><br><br>
+
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th colspan="6">Academic Qualifications</th>
+                </tr>
+                <tr>
+                    <th>Level</th>
+                    <th>Max Marks</th>
+                    <th>Marks Obtained</th>
+                    <th>Board of Examination</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10TH</td>
+                    <td> 
+                        <label for=""></label>
+                         <input type="text" id="" name="" ><br>
+                    </td>
+                    <td> 
+                        <label for=""></label>
+                         <input type="text" id="" name="" ><br>
+                    </td>
+                    <td> 
+                        <label for=""></label>
+                         <input type="text" id="" name="" ><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>12TH</td>
+                    <td> 
+                        <label for=""></label>
+                         <input type="text" id="" name="" ><br>
+                    </td>
+                    <td> 
+                        <label for=""></label>
+                         <input type="text" id="" name="" ><br>
+                    </td>
+                    <td> 
+                        <label for=""></label>
+                         <input type="text" id="" name="" ><br>
+                    </td>
+                </tr>
+            </tbody>
+        </table><br>
+
+        <label for="state">State:</label><br>
+        <input type="text" id="state" name="state" ><br><br>
+
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country" ><br><br>
+
+        <label for="Village">Village:</label><br>
+        <input type="text" id="Village" name="Village" ><br><br>
+
+        <label for="address">Permanent Address:</label><br>
+        <textarea name="address" id="address" cols="50" rows="4"></textarea><br><br>
+
+        <label for="checkbox">I Agree With This</label>
+        <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+
+        <input type="submit" value="SUBMIT ADMISSION FORM">
+    </form>
+</body>
+</html>
