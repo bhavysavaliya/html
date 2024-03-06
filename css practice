@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="myclass">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe fugiat facere nam repellendus expedita minima eius dolores consequuntur consequatur non qui, sequi quod. Temporibus, nostrum earum! Numquam perferendis dolorum modi.</p>
+    <p id="mypara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quibusdam quae blanditiis, obcaecati earum quam odit sit rem? Asperiores architecto corporis quaerat! Atque ipsam aut veritatis ea, temporibus laborum nobis.</p>
+    
+    <p class="myclass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nemo quae vitae magnam blanditiis hic fuga ipsum rerum consequuntur praesentium expedita mollitia consectetur itaque atque laboriosam, ut voluptas quasi odio.</p>
+    <a href="/style.css">Click Me</a>
+</body>
+</html>
