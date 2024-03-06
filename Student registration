@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <form>
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br>
+
+        <label for="studentContactNo">Student Contact No:</label><br>
+        <input type="tel" id="studentContactNo" name="studentContactNo" pattern="[0-9]{10}" required><br>
+
+        <label for="parentsContactNo">Parents Contact No:</label><br>
+        <input type="tel" id="parentsContactNo" name="parentsContactNo" pattern="[0-9]{10}" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+        <label for="dateOfBirth">Date of Birth (dd-mm-yyyy):</label><br>
+        <input type="text" id="dateOfBirth" name="dateOfBirth" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" required><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br>
+
+        <label for="bloodGroup">Blood Group:</label><br>
+        <select id="bloodGroup" name="bloodGroup" required>
+            <option value="A+">A+</option>
+            <!-- Add other blood groups here -->
+        </select><br>
+
+        <label for="branch">Branch:</label><br>
+        <input type="text" id="branch" name="branch" value="Civil" readonly required><br>
+
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies[]" value="Reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="sports" name="hobbies[]" value="Sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="hobbies[]" value="Music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="travelling" name="hobbies[]" value="Travelling">
+        <label for="travelling">Travelling</label><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
