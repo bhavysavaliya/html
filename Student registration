@@ -35,12 +35,17 @@
 
         <label for="bloodGroup">Blood Group:</label><br>
         <select id="bloodGroup" name="bloodGroup" required>
+            <option value="A">A</option>
             <option value="A+">A+</option>
-            <!-- Add other blood groups here -->
+            <option value="B">B</option>
+            <option value="B+">B+</option>
+            <option value="O">O</option>
+            <option value="O+"></option>O+</option>
+        
         </select><br>
 
         <label for="branch">Branch:</label><br>
-        <input type="text" id="branch" name="branch" value="Civil" readonly required><br>
+        <input type="text" id="branch" name="branch" required><br>
 
         <label for="hobbies">Hobbies:</label><br>
         <input type="checkbox" id="reading" name="hobbies[]" value="Reading">
